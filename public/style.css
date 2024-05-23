@@ -1,0 +1,86 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+p a {
+  text-decoration: none;
+  color: brown;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+}
+
+.wrapper {
+  width: 60%;
+  height: 100%;
+  margin: 50px auto;
+  padding: 50px;
+  font-size: 1.3em;
+  border-radius: 5px;
+  background-color: gray;
+  box-shadow: 5px 5px 11px rgba(0, 0, 0, 0.5);
+}
+
+label {
+  margin-bottom: 20px;
+}
+
+input {
+  margin-bottom: 30px;
+  /* margin-top: 20px; */
+  display: block;
+  border-radius: 5px;
+  width: 80%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 1em;
+}
+
+select {
+  margin: 20px 0;
+  border-radius: 5px;
+  padding: 7px;
+  font-size: 0.8em;
+}
+
+.error {
+  color: red;
+  /* border: 2px solid black; */
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.submit-btn {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.submit-btn:hover {
+  background: #333;
+  color: #fff;
+}
